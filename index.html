@@ -2,82 +2,375 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document Links</title>
+  <title>Document Links - Email Templates</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--[if gte mso 9]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <![endif]-->
+  <style>
+    .copy-btn {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      margin: 10px 0 20px 20px;
+      transition: background-color 0.3s;
+    }
+    .copy-btn:hover {
+      background-color: #218838;
+    }
+    .copy-btn:active {
+      background-color: #1e7e34;
+    }
+    .template-container {
+      margin-bottom: 30px;
+    }
+    /* Force no underline on links */
+    a {
+      text-decoration: none !important;
+    }
+  </style>
 </head>
-<body style="background-color: #f2f2f2; padding: 40px;">
+<body style="margin: 0; padding: 40px; font-family: Arial, sans-serif; background-color: #f2f2f2;">
 
-  <br><br><br>
+  <!-- Spacer -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr><td height="40"></td></tr>
+  </table>
 
-  <!-- Download ZIP File -->
-  <div style="max-width: 450px; margin-left: 20px; margin-right: auto; border: 1px solid #ddd; border-radius: 10px; padding: 14px; background-color: #f9f9f9; font-family: Arial, sans-serif; font-size: 13px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);">
-    <h3 style="margin-top: 0; color: #333;">📦 Download ZIP File</h3>
-    <p style="margin: 10px 0; text-align: center; font-size: 13px; color: #555;">
-      Please download it within <strong>7 days</strong> before the link expires.
-    </p>
-    <div style="text-align: center; margin-top: 13px;">
-      <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank"
-         style="display: inline-block; background-color: #007bff; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 13px;">
-        📥 Download Files
-      </a>
+  <!-- ========== Template 1: Download ZIP File ========== -->
+  <div class="template-container">
+    <button class="copy-btn" onclick="copyTemplate('template1')">📋 Copy Download ZIP Template</button>
+    
+    <div id="template1">
+      <table cellpadding="0" cellspacing="0" border="0" style="max-width: 450px; margin: 0 0 0 20px; border-collapse: collapse; font-family: Arial, sans-serif; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr>
+          <td style="padding: 0;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border: 1px solid #ddd; border-collapse: collapse; border-radius: 10px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolor="#f9f9f9">
+              <tr>
+                <td style="padding: 14px; border-radius: 10px;">
+                  
+                  <!-- Header -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #333; padding: 0 0 10px 0; mso-line-height-rule: exactly; line-height: 20px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">📦 Download ZIP File</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Message -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 13px; color: #555; text-align: center; padding: 10px 0; mso-line-height-rule: exactly; line-height: 18px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 13px; color: #555;">Please download it within </span><strong style="font-family: Arial, sans-serif; font-size: 13px; color: #555;">7 days</strong><span style="font-family: Arial, sans-serif; font-size: 13px; color: #555;"> before the link expires.</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Button -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td align="center" style="padding-top: 13px;">
+                        
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://docs.google.com/document/d/your-doc-id/view" style="height:40px;v-text-anchor:middle;width:180px;" arcsize="13%" strokecolor="#007bff" fillcolor="#007bff">
+                          <w:anchorlock/>
+                          <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:13px;font-weight:normal;text-decoration:none;">📥 Download Files</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        
+                        <!--[if !mso]><!-->
+                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <tr>
+                            <td align="center" bgcolor="#007bff" style="padding: 10px 20px; font-family: Arial, sans-serif; font-size: 13px; border-radius: 5px; mso-line-height-rule: exactly; line-height: 18px;">
+                              <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank" style="color: #ffffff; text-decoration: none !important; display: block; font-weight: normal; font-family: Arial, sans-serif; font-size: 13px; mso-line-height-rule: exactly;">
+                                <span style="text-decoration: none !important; color: #ffffff; font-family: Arial, sans-serif; font-size: 13px;">📥 Download Files</span>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--<![endif]-->
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
 
-  <br><br><br><br><br><br>
+  <!-- Spacer -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr><td height="40"></td></tr>
+  </table>
 
-  <!-- CRF Document -->
-  <div style="max-width: 450px; margin-left: 20px; margin-right: auto; border: 1px solid #ddd; border-radius: 10px; padding: 14px; background-color: #f9f9f9; font-family: Arial, sans-serif; font-size: 13px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);">
-    <h3 style="margin-top: 0; color: #333;">📄 CRF Document :
-      <span style="color: #007bff; font-weight: bold;">CRF_No</span>
-    </h3>
-    <p style="margin: 10px 0; text-align: center; font-size: 13px; color: #555;">
-      Please click the link below to review and approve the document.
-    </p>
-    <div style="text-align: center; margin-top: 13px;">
-      <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank"
-         style="display: inline-block; background-color: #007bff; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 13px;">
-        ✍️ Sign or Approve Document
-      </a>
+  <!-- ========== Template 2: CRF Document ========== -->
+  <div class="template-container">
+    <button class="copy-btn" onclick="copyTemplate('template2')">📋 Copy CRF Template</button>
+    
+    <div id="template2">
+      <table cellpadding="0" cellspacing="0" border="0" style="max-width: 450px; margin: 0 0 0 20px; border-collapse: collapse; font-family: Arial, sans-serif; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr>
+          <td style="padding: 0;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border: 1px solid #ddd; border-collapse: collapse; border-radius: 10px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolor="#f9f9f9">
+              <tr>
+                <td style="padding: 14px; border-radius: 10px;">
+                  
+                  <!-- Header -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #333; padding: 0 0 10px 0; mso-line-height-rule: exactly; line-height: 20px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">📄 CRF Document : </span><span style="color: #007bff; font-family: Arial, sans-serif; font-size: 16px;">CRF_No</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Message -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 13px; color: #555; text-align: center; padding: 10px 0; mso-line-height-rule: exactly; line-height: 18px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 13px; color: #555;">Please click the link below to review and approve the document.</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Button -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td align="center" style="padding-top: 13px;">
+                        
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://docs.google.com/document/d/your-doc-id/view" style="height:40px;v-text-anchor:middle;width:220px;" arcsize="13%" strokecolor="#007bff" fillcolor="#007bff">
+                          <w:anchorlock/>
+                          <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:13px;font-weight:normal;text-decoration:none;">✍️ Sign or Approve Document</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        
+                        <!--[if !mso]><!-->
+                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <tr>
+                            <td align="center" bgcolor="#007bff" style="padding: 10px 20px; font-family: Arial, sans-serif; font-size: 13px; border-radius: 5px; mso-line-height-rule: exactly; line-height: 18px;">
+                              <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank" style="color: #ffffff; text-decoration: none !important; display: block; font-weight: normal; font-family: Arial, sans-serif; font-size: 13px; mso-line-height-rule: exactly;">
+                                <span style="text-decoration: none !important; color: #ffffff; font-family: Arial, sans-serif; font-size: 13px;">✍️ Sign or Approve Document</span>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--<![endif]-->
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
 
-  <br><br><br><br><br><br>
+  <!-- Spacer -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr><td height="40"></td></tr>
+  </table>
 
-  <!-- UAT Document -->
-  <div style="max-width: 450px; margin-left: 20px; margin-right: auto; border: 1px solid #ddd; border-radius: 10px; padding: 14px; background-color: #f9f9f9; font-family: Arial, sans-serif; font-size: 13px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);">
-    <h3 style="margin-top: 0; color: #333;">📄 UAT Document :
-      <span style="color: #007bff; font-weight: bold;">UAT_No</span>
-    </h3>
-    <p style="margin: 10px 0; text-align: center; font-size: 13px; color: #555;">
-      Please click the link below to review and approve the document.
-    </p>
-    <div style="text-align: center; margin-top: 13px;">
-      <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank"
-         style="display: inline-block; background-color: #007bff; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 13px;">
-        ✍️ Sign or Approve Document
-      </a>
+  <!-- ========== Template 3: UAT Document ========== -->
+  <div class="template-container">
+    <button class="copy-btn" onclick="copyTemplate('template3')">📋 Copy UAT Template</button>
+    
+    <div id="template3">
+      <table cellpadding="0" cellspacing="0" border="0" style="max-width: 450px; margin: 0 0 0 20px; border-collapse: collapse; font-family: Arial, sans-serif; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr>
+          <td style="padding: 0;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border: 1px solid #ddd; border-collapse: collapse; border-radius: 10px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolor="#f9f9f9">
+              <tr>
+                <td style="padding: 14px; border-radius: 10px;">
+                  
+                  <!-- Header -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #333; padding: 0 0 10px 0; mso-line-height-rule: exactly; line-height: 20px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">📄 UAT Document : </span><span style="color: #007bff; font-family: Arial, sans-serif; font-size: 16px;">UAT_No</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Message -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 13px; color: #555; text-align: center; padding: 10px 0; mso-line-height-rule: exactly; line-height: 18px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 13px; color: #555;">Please click the link below to review and approve the document.</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Button -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td align="center" style="padding-top: 13px;">
+                        
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://docs.google.com/document/d/your-doc-id/view" style="height:40px;v-text-anchor:middle;width:220px;" arcsize="13%" strokecolor="#007bff" fillcolor="#007bff">
+                          <w:anchorlock/>
+                          <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:13px;font-weight:normal;text-decoration:none;">✍️ Sign or Approve Document</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        
+                        <!--[if !mso]><!-->
+                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <tr>
+                            <td align="center" bgcolor="#007bff" style="padding: 10px 20px; font-family: Arial, sans-serif; font-size: 13px; border-radius: 5px; mso-line-height-rule: exactly; line-height: 18px;">
+                              <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank" style="color: #ffffff; text-decoration: none !important; display: block; font-weight: normal; font-family: Arial, sans-serif; font-size: 13px; mso-line-height-rule: exactly;">
+                                <span style="text-decoration: none !important; color: #ffffff; font-family: Arial, sans-serif; font-size: 13px;">✍️ Sign or Approve Document</span>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--<![endif]-->
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
 
-  <br><br><br><br><br><br>
+  <!-- Spacer -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr><td height="40"></td></tr>
+  </table>
 
-  <!-- Deployment Plan -->
-  <div style="max-width: 450px; margin-left: 20px; margin-right: auto; border: 1px solid #ddd; border-radius: 10px; padding: 14px; background-color: #f9f9f9; font-family: Arial, sans-serif; font-size: 13px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.20);">
-    <h3 style="margin-top: 0; color: #333;">📄 Deployment Plan :
-      <span style="color: #007bff; font-weight: bold;">CRF_No</span>
-    </h3>
-    <p style="margin: 10px 0; text-align: center; font-size: 13px; color: #555;">
-      Please click the link below to review and approve the document.
-    </p>
-    <div style="text-align: center; margin-top: 13px;">
-      <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank"
-         style="display: inline-block; background-color: #007bff; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 13px;">
-        ✍️ Approve Deployment Plan
-      </a>
+  <!-- ========== Template 4: Deployment Plan ========== -->
+  <div class="template-container">
+    <button class="copy-btn" onclick="copyTemplate('template4')">📋 Copy Deployment Plan Template</button>
+    
+    <div id="template4">
+      <table cellpadding="0" cellspacing="0" border="0" style="max-width: 450px; margin: 0 0 0 20px; border-collapse: collapse; font-family: Arial, sans-serif; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr>
+          <td style="padding: 0;">
+            <table cellpadding="0" cellspacing="0" border="0" width="100%" style="border: 1px solid #ddd; border-collapse: collapse; border-radius: 10px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" bgcolor="#f9f9f9">
+              <tr>
+                <td style="padding: 14px; border-radius: 10px;">
+                  
+                  <!-- Header -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; color: #333; padding: 0 0 10px 0; mso-line-height-rule: exactly; line-height: 20px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 16px; color: #333;">📄 Deployment Plan : </span><span style="color: #007bff; font-family: Arial, sans-serif; font-size: 16px;">CRF_No</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Message -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td style="font-family: Arial, sans-serif; font-size: 13px; color: #555; text-align: center; padding: 10px 0; mso-line-height-rule: exactly; line-height: 18px;">
+                        <span style="font-family: Arial, sans-serif; font-size: 13px; color: #555;">Please click the link below to review and approve the document.</span>
+                      </td>
+                    </tr>
+                  </table>
+                  
+                  <!-- Button -->
+                  <table cellpadding="0" cellspacing="0" border="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <tr>
+                      <td align="center" style="padding-top: 13px;">
+                        
+                        <!--[if mso]>
+                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://docs.google.com/document/d/your-doc-id/view" style="height:40px;v-text-anchor:middle;width:220px;" arcsize="13%" strokecolor="#007bff" fillcolor="#007bff">
+                          <w:anchorlock/>
+                          <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:13px;font-weight:normal;text-decoration:none;">✍️ Approve Deployment Plan</center>
+                        </v:roundrect>
+                        <![endif]-->
+                        
+                        <!--[if !mso]><!-->
+                        <table cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <tr>
+                            <td align="center" bgcolor="#007bff" style="padding: 10px 20px; font-family: Arial, sans-serif; font-size: 13px; border-radius: 5px; mso-line-height-rule: exactly; line-height: 18px;">
+                              <a href="https://docs.google.com/document/d/your-doc-id/view" target="_blank" style="color: #ffffff; text-decoration: none !important; display: block; font-weight: normal; font-family: Arial, sans-serif; font-size: 13px; mso-line-height-rule: exactly;">
+                                <span style="text-decoration: none !important; color: #ffffff; font-family: Arial, sans-serif; font-size: 13px;">✍️ Approve Deployment Plan</span>
+                              </a>
+                            </td>
+                          </tr>
+                        </table>
+                        <!--<![endif]-->
+                        
+                      </td>
+                    </tr>
+                  </table>
+                  
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
 
-  <br><br><br><br><br><br>
+  <!-- Spacer -->
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr><td height="40"></td></tr>
+  </table>
+
+  <script>
+    function copyTemplate(templateId) {
+      const template = document.getElementById(templateId);
+      
+      // Create a range and selection
+      const range = document.createRange();
+      range.selectNode(template);
+      
+      // Clear existing selection and add new range
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      
+      try {
+        // Copy to clipboard
+        document.execCommand('copy');
+        
+        // Show feedback
+        const button = event.target;
+        const originalText = button.textContent;
+        button.textContent = '✅ Copied!';
+        button.style.backgroundColor = '#28a745';
+        
+        setTimeout(() => {
+          button.textContent = originalText;
+          button.style.backgroundColor = '#28a745';
+        }, 2000);
+        
+      } catch (err) {
+        alert('Failed to copy. Please select and copy manually.');
+      }
+      
+      // Clear selection
+      selection.removeAllRanges();
+    }
+  </script>
 
 </body>
 </html>
